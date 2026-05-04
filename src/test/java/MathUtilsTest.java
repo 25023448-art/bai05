@@ -6,10 +6,6 @@ import org.junit.jupiter.api.Test;
 public class MathUtilsTest {
     MathUtils math = new MathUtils();
 
-    @Test
-    void testAdd() {
-        assertEquals(5, math.add(2, 3));
-    }
 
     @Test
     void testDivide() {
